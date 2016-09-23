@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Tutorial", "Tutorial.pyproj", "{976CA5E1-B4CE-43E5-B9DA-2B683199E84F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_1", "Week_1", "{CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimplePlotting", "..\SimplePlotting\SimplePlotting.pyproj", "{1FE6BDFD-4F1A-4F58-8907-E860BA474188}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AdvancedPlotting", "AdvancedPlotting\AdvancedPlotting.pyproj", "{1308A271-0F0D-45B6-877F-3660D99C2F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{976CA5E1-B4CE-43E5-B9DA-2B683199E84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976CA5E1-B4CE-43E5-B9DA-2B683199E84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE6BDFD-4F1A-4F58-8907-E860BA474188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE6BDFD-4F1A-4F58-8907-E860BA474188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1308A271-0F0D-45B6-877F-3660D99C2F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1308A271-0F0D-45B6-877F-3660D99C2F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{976CA5E1-B4CE-43E5-B9DA-2B683199E84F} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
+		{1FE6BDFD-4F1A-4F58-8907-E860BA474188} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
+		{1308A271-0F0D-45B6-877F-3660D99C2F7B} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
+	EndGlobalSection
+EndGlobal
