@@ -40,7 +40,7 @@ def getCountriesMean(data):
         
         curTotal += total_scores[i]
         countryCount += 1
-    means.sort()
+    means.sort(reverse=True)
     return means
 
 
@@ -52,14 +52,14 @@ def plotCountriesMean(distr):
     output: p, output from plt.plot
             f, pyplot figure
     """
-    data = getCountriesMean(distr)
+
     f = plt.figure()
-    h = plt.hist(data, 20)
-    plt.xlabel("totalscore")
-    plt.ylabel("count")
-    plt.ylim(0,10)
-    plt.xlim(0, 84)
-    return h, f
+    p = plt.plot(range(1,len(distr)+1),distr)
+    plt.xlabel("Country rank")
+    plt.ylabel("Mean score")
+    plt.ylim(0,50)
+    plt.xlim(1, 85)
+    return p, f
 
 
 if __name__ == '__main__':
@@ -70,6 +70,7 @@ if __name__ == '__main__':
     # functions will be tested by us.
     # Example:
     data = read_from_file("ipho_markings.txt")
-    p, f = plotCountriesMean(data)
+    y = getCountriesMean(data)
+    p, f = plotCountriesMean(y)
     f.show()
     pass
