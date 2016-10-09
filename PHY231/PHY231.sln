@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_2", "Week_2", "{BFA536
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MeanAndStandardDeviation", "..\MeanAndStandardDeviation\MeanAndStandardDeviation.pyproj", "{227A2DE4-CB95-4499-BB07-05943141FC24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_3", "Week_3", "{2072C11F-2B0A-46B9-8284-54DD30FAC267}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CorrelatedUncertainties", "..\1_Mean_and_StandardDeviation\CorrelatedUncertainties.pyproj", "{5F8DBD52-2B8A-4092-8426-293C43924BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,8 @@ Global
 		{1308A271-0F0D-45B6-877F-3660D99C2F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{227A2DE4-CB95-4499-BB07-05943141FC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{227A2DE4-CB95-4499-BB07-05943141FC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8DBD52-2B8A-4092-8426-293C43924BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8DBD52-2B8A-4092-8426-293C43924BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 		{1FE6BDFD-4F1A-4F58-8907-E860BA474188} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
 		{1308A271-0F0D-45B6-877F-3660D99C2F7B} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
 		{227A2DE4-CB95-4499-BB07-05943141FC24} = {BFA53645-37BE-4D74-B7C3-52F52C7FF397}
+		{5F8DBD52-2B8A-4092-8426-293C43924BB9} = {2072C11F-2B0A-46B9-8284-54DD30FAC267}
 	EndGlobalSection
 EndGlobal
