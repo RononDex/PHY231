@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Tutorial", "Tutorial.pyproj", "{976CA5E1-B4CE-43E5-B9DA-2B683199E84F}"
 EndProject
@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_3", "Week_3", "{2072C1
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CorrelatedUncertainties", "..\1_Mean_and_StandardDeviation\CorrelatedUncertainties.pyproj", "{5F8DBD52-2B8A-4092-8426-293C43924BB9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ErrorPropagation", "..\ErrorPropagation\ErrorPropagation.pyproj", "{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,8 @@ Global
 		{227A2DE4-CB95-4499-BB07-05943141FC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F8DBD52-2B8A-4092-8426-293C43924BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F8DBD52-2B8A-4092-8426-293C43924BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +49,6 @@ Global
 		{1308A271-0F0D-45B6-877F-3660D99C2F7B} = {CA4D1EC5-5A43-47A2-9B02-EBEBD1F3D999}
 		{227A2DE4-CB95-4499-BB07-05943141FC24} = {BFA53645-37BE-4D74-B7C3-52F52C7FF397}
 		{5F8DBD52-2B8A-4092-8426-293C43924BB9} = {2072C11F-2B0A-46B9-8284-54DD30FAC267}
+		{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D} = {2072C11F-2B0A-46B9-8284-54DD30FAC267}
 	EndGlobalSection
 EndGlobal

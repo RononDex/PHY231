@@ -1,0 +1,5 @@
+The functions seem to work. Nice Job!
+PRO-TIP: have you protected your code against correlation coefficients greater than 1?
+
+What about the choice of rho? It seems we have different ideas...
+Your exercise will be registered as completed, but you can still retry to choose rho and give the right answer to exercise 3.
