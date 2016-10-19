@@ -1,0 +1,2 @@
+The functions seem to work.
+Perfect, all the values are correct!
