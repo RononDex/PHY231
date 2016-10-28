@@ -25,6 +25,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Track_Probability", "..\Tra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_4", "Week_4", "{EF30EEB7-6CCF-49FE-8B10-22BC47152DBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_6", "Week_6", "{6C2BCED6-DC3A-405B-9F59-5488C7860E1A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MonteCarloIntegration", "..\MonteCarloIntegration\MonteCarloIntegration.pyproj", "{4BFB4551-9F30-469C-9D37-AFB63A11A431}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,8 @@ Global
 		{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D790B0-7E0D-4BF6-A54B-3B4EBE8D43DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9D790B0-7E0D-4BF6-A54B-3B4EBE8D43DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB4551-9F30-469C-9D37-AFB63A11A431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB4551-9F30-469C-9D37-AFB63A11A431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{5F8DBD52-2B8A-4092-8426-293C43924BB9} = {2072C11F-2B0A-46B9-8284-54DD30FAC267}
 		{B2498D8A-3F51-4ADB-A93E-2F1BFA83414D} = {2072C11F-2B0A-46B9-8284-54DD30FAC267}
 		{D9D790B0-7E0D-4BF6-A54B-3B4EBE8D43DC} = {EF30EEB7-6CCF-49FE-8B10-22BC47152DBF}
+		{4BFB4551-9F30-469C-9D37-AFB63A11A431} = {6C2BCED6-DC3A-405B-9F59-5488C7860E1A}
 	EndGlobalSection
 EndGlobal
