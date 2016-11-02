@@ -60,4 +60,6 @@ if __name__ == '__main__':
     #efficiency = 0.9
     #prob_one_track = probabilityTrack(nHits,nLayers,efficiency)
     # print prob_one_track
+    print(resultA)
+    print(resultB)
     pass
