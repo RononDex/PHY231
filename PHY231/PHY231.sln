@@ -35,6 +35,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Convolution", "..\Convoluti
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BreitWignerFaltung", "BreitWignerFaltung\BreitWignerFaltung.pyproj", "{3DC6EDD3-3F6D-4038-BF5F-D3CF06DD9592}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IQ_Calculations", "..\IQ_Calculations\IQ_Calculations.pyproj", "{D9ED8F18-9553-4DFF-9EC3-8CC305684B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,8 @@ Global
 		{09DD053C-2CF9-45F1-9E32-45B045BCB6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC6EDD3-3F6D-4038-BF5F-D3CF06DD9592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DC6EDD3-3F6D-4038-BF5F-D3CF06DD9592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9ED8F18-9553-4DFF-9EC3-8CC305684B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9ED8F18-9553-4DFF-9EC3-8CC305684B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +80,6 @@ Global
 		{4BFB4551-9F30-469C-9D37-AFB63A11A431} = {6C2BCED6-DC3A-405B-9F59-5488C7860E1A}
 		{09DD053C-2CF9-45F1-9E32-45B045BCB6DE} = {0468A4E2-A92F-4956-BD24-D9C51D443BFE}
 		{3DC6EDD3-3F6D-4038-BF5F-D3CF06DD9592} = {0468A4E2-A92F-4956-BD24-D9C51D443BFE}
+		{D9ED8F18-9553-4DFF-9EC3-8CC305684B0D} = {0468A4E2-A92F-4956-BD24-D9C51D443BFE}
 	EndGlobalSection
 EndGlobal

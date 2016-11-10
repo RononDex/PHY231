@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>09dd053c-2cf9-45f1-9e32-45b045bcb6de</ProjectGuid>
+    <ProjectGuid>d9ed8f18-9553-4dff-9ec3-8cc305684b0d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>convolution.py</StartupFile>
+    <StartupFile>iq.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Convolution</Name>
-    <RootNamespace>Convolution</RootNamespace>
+    <Name>IQ_Calculations</Name>
+    <RootNamespace>IQ_Calculations</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,18 +21,19 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="iq.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iq_data.txt" />
+    <Content Include="README.txt" />
+    <Content Include="submit.pyc" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="convolution.py" />
-    <Compile Include="__init__.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="README.txt" />
-    <Content Include="submit.pyc" />
-  </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
